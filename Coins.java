@@ -4,9 +4,9 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		int totalMoney=Integer.parseInt(args[0]);     
-		int q=totalMoney/25;
-		int c=totalMoney%25;
-		System.out.println("use "+q+  " quartes and "+ c+ " cents");
+		int totalMoney = Integer.parseInt(args[0]);
+		int q = totalMoney / 25;
+		int c = totalMoney % 25;
+		System.out.println("Use " + q + " quartes and " + c + " cents");
 	}
 }
