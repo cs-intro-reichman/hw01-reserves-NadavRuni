@@ -9,7 +9,7 @@ public class AddTwo {
         y = Integer.parseInt(args[1]);
         sumxy = x + y;
 
-        System.out.println(x + "+" + y + "=" + sumxy);
+        System.out.println(x + " + " + y + " = " + sumxy);
 
     }
 }
